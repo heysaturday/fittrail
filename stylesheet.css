@@ -1,4 +1,25 @@
 @charset "UTF-8";
+
+/* --- CUSTOM CSS --- */
+.alert-bar-wrapper {
+	background: yellow;
+	text-align: center;
+	padding: 20px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.alert-bar-wrapper a {
+	color: gray;
+}
+
+.alert-bar {
+	max-width: 980px;
+	margin: auto;
+}
+
+
+
 /* --- CSS Document by Codify Design Studio - codifydesign.com --- */
 
 body {
@@ -16,28 +37,38 @@ h1 {
 	font-weight: normal;
 	margin: 3px 0px 25px 0px;
 }
+
 h2 {
 	color: #214265;
 	font-size: 14px;
 	font-weight: bold;
 	margin: 0px 0px 15px 0px;
 }
+
 h3 {
 	color: #244669;
 	margin-top: 12px;
 	margin-bottom: 0px;
 }
+
 p {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 12px;
 	margin-left: 0px;
 }
-a          {
+
+a {
 	color: #36C;
 }
-a:visited  { color: black; }
-a:hover    { color: #5872f4; }
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #5872f4;
+}
 
 .container {
 	width: 980px;
@@ -48,13 +79,14 @@ a:hover    { color: #5872f4; }
 
 /* BANNER AREA */
 .bannerArea {
-	width: 100%;height: 83px;
+	width: 100%;
+	height: 83px;
 	background-color: #4971a2;
 }
 
 .bannerArea .container {
 	width: 980px;
-	height:83px;
+	height: 83px;
 	background-image: url(images/banner_bkgd.jpg);
 	background-repeat: no-repeat;
 }
@@ -67,9 +99,19 @@ a:hover    { color: #5872f4; }
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 }
 
-.bannernav a { color: #ffffff; text-decoration: none; }
-.bannernav a:visited { color: #ffffff; }
-.bannernav a:hover { color: #112c4c; text-decoration: none; }
+.bannernav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.bannernav a:visited {
+	color: #ffffff;
+}
+
+.bannernav a:hover {
+	color: #112c4c;
+	text-decoration: none;
+}
 
 .toplogo {
 	padding-left: 30px;
@@ -80,12 +122,13 @@ a:hover    { color: #5872f4; }
 /* TOP NAVIGATION AREA */
 .topnavigationArea {
 	background-image: url(images/topnav_bkgd.jpg);
-	background-repeat:repeat-x;
+	background-repeat: repeat-x;
 	background-color: #436d9c;
 }
+
 .topnavigationArea .container {
 	background-image: url(images/topnav_bkgd.jpg);
-	background-repeat:repeat-x;
+	background-repeat: repeat-x;
 	background-color: #436d9c;
 	width: 980px;
 }
@@ -95,6 +138,7 @@ a:hover    { color: #5872f4; }
 	float: right;
 	padding-right: 1px;
 }
+
 .topnavigationgroup ul {
 	margin: 0px;
 }
@@ -159,12 +203,12 @@ a:hover    { color: #5872f4; }
 	width: 210px;
 }
 
-.imageright {	
+.imageright {
 	margin-left: 5px;
 	float: right;
 }
 
-.imageleft {	
+.imageleft {
 	margin-right: 5px;
 	float: left;
 }
